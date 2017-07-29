@@ -1,0 +1,130 @@
+/* CSS */
+
+/* Notes:
+Boxmodel order: top, right, bottom, left.
+*/
+
+body {
+	background-image:url("/assets/images/tile.jpg");
+}
+
+#timeAndDate label {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+}
+
+#timeAndDate input {
+	width: 150px;
+	font-size: 16px;
+	text-align: left;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+}
+
+#timeLabel {
+	margin-left: 36%;
+}
+
+#Header {
+	background: url("/assets/images/logo.png") no-repeat center;
+	height: 250px;
+}
+
+#noteBoxArea {
+	height: 450px;
+	margin: 1px;
+}
+
+#notesBox {
+	border: 2px black solid;
+	width: 50%;
+	height: 290px;
+	margin-top: 100px;
+	margin-left: 25%;
+	background-image:url("/assets/images/formbg.jpg");
+	background-attachment: initial;
+	background-size: 90% auto;
+}
+
+#timeAndDate {
+	margin-top: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 13%;
+}
+
+#textAreaBox {
+	width: 100%;
+	height: 82%;
+	text-align: center;
+}
+
+#textAreaBox label {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+}
+
+#textAreaInput {
+	max-height: 60%;
+	max-width: 97%;
+	resize: none;
+}
+
+
+#notePos {
+	margin-top: 8px;
+	height: 331px;
+}
+
+/* Notes Stuff */
+
+.noteContainer {
+	
+	background-image: url("/assets/images/notebg.png");
+	width: 200px;
+	height: 250px;
+	display: inline-block;
+	
+}
+
+
+.xButton {
+	
+	background-image: url("/assets/images/xbutton.png");
+	position: relative;
+	left: 160px;
+	top: 20px;
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+
+.noteDescription {
+	
+	width: 170px;
+	height: 140px;
+	display: inline-block;
+	position: relative;
+	top: 25px ;
+	left: 4px ;
+    overflow: scroll;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+}
+
+.noteDateAndTime {
+	
+	width: 140px;
+	height: 30px;
+	display: inline-block;
+	position: relative;
+	top: 25px;
+	left: 5px;
+
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	
+}

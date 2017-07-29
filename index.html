@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>TaskBoard</title>
+    <link rel="stylesheet" href="css/style.css"/> 
+</head>
+<body>
+<header>
+    <div id="Header"></div>    
+</header>
+<section>
+    <div id="noteBoxArea">
+        <div id="notesBox">
+            <div id="timeAndDate">
+                <label>Date:</label>
+                    <input id="dateBar" type="date"/>
+						<label id="timeLabel">Time:</label>
+				<input id="timeBar" type="time" />
+            </div>
+            <div id="textAreaBox">
+                <label>Type your note details here:</label>
+				    <br />
+				        <textarea id="textAreaInput" cols="100" rows="10" maxlength="32" placeholder="Please enter description here.."></textarea>
+				            <br />
+				        <input type="button" value="Pin Note" id="createNoteBtn" />
+                    <br />
+                <span id="warningBox"></span>
+            </div>
+        </div>
+    </div>
+</section> 
+<section>
+    <div id="notePos"></div> <!-- Note Area --> 
+</section>
+<script src="scripts/mainscript.js"></script>
+<script src="scripts/datecontrol.js"></script>
+</body>
+</html> 
